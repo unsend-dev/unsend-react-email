@@ -1,27 +1,19 @@
-# React Email Starter
+# Unsend React Email Starter
 
-A live preview right in your browser so you don't need to keep sending real emails during development.
+A starter project to use react emails with Unsend.
 
 ## Getting Started
 
-First, install the dependencies:
-
 ```sh
-npm install
-# or
-yarn
+pnpm install
 ```
 
-Then, run the development server:
-
 ```sh
-npm run dev
-# or
-yarn dev
+pnpm dev
 ```
 
-Open [localhost:3000](http://localhost:3000) with your browser to see the result.
+you need babel to import jsx files in your nodejs files.
 
-## License
-
-MIT License
+```sh
+ @babel/preset-env, @babel/preset-react
+```
